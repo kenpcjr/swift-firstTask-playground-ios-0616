@@ -16,6 +16,7 @@
 */
 // write your code here
 
+var kensAccountBalance = 100
 
 
 
@@ -24,7 +25,7 @@
 */
 // write your code here
 
-
+let puppyName = "Bella"
 
 
 /*: question3
@@ -32,7 +33,7 @@
 */
 // write your code here
 
-
+print(puppyName)
 
 
 /*: question4
@@ -40,7 +41,7 @@
 */
 // write your code here
 
-
+print("I just got a new puppy named \(puppyName) and she is awesome!")
 
 
 /*: question5
@@ -48,7 +49,7 @@
 */
 // write your code here
 
-
+print("I have $\(kensAccountBalance) in my bank account.")
 
 
 /*: question6
@@ -56,7 +57,9 @@
 */
 // write your code here
 
+kensAccountBalance += 100
 
+print("I now have \(kensAccountBalance).")
 
 
 /*: question7
@@ -64,7 +67,7 @@
 */
 // write your code here
 
-
+//This can't be done because it was declared as a constant.
 
 
 //: [Solution](solution)
